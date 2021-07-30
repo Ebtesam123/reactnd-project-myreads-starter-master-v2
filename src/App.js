@@ -24,7 +24,6 @@ class BooksApp extends React.Component {
       });
     } else {
       changedBook.shelf = shelf;
-      // this.state.booksData.push(changedBook);
       const AllBooks = [...this.state.booksData, changedBook];
       this.setState({ booksData: AllBooks });
     }
